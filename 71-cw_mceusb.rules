@@ -1,0 +1,1 @@
+SUBSYSTEM=="rc", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="006d", RUN+="/bin/sh -c '/bin/echo +mce_kbd > /sys$env{DEVPATH}/protocols'"
