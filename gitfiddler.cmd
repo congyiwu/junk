@@ -32,5 +32,5 @@ goto :eof
 :help
   echo USAGE: gitfiddler.cmd 1^|0
   echo 1: Set git config and winhttp to use proxy
-  echo 2: disable proxy for git config and winhttp
+  echo 0: disable proxy for git config and winhttp
 goto :eof
