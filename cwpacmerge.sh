@@ -1,4 +1,6 @@
 #!/bin/sh
+set -eu
+
 export theirs
 export usebase
 
