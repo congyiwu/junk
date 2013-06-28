@@ -1,5 +1,12 @@
 @echo off 
 
+if [%1] equ [] (
+  call :enable
+  pause
+  call :disable
+  goto :eof
+)
+
 if [%1] equ [1] (
   call :enable
   goto :eof
@@ -30,7 +37,8 @@ goto :eof
 goto :eof
 
 :help
-  echo USAGE: gitfiddler.cmd 1^|0
-  echo 1: Set git config and winhttp to use proxy
-  echo 0: disable proxy for git config and winhttp
+  echo USAGE: gitfiddler.cmd [1^|0]
+  echo 1: sets proxy to localhost:8888 in git config and winhttp
+  echo 0: unsets proxy in git config and winhttp
+  echo no params: sets, pauses, then unsets
 goto :eof
