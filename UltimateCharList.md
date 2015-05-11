@@ -30,6 +30,7 @@ á: Latin small letter a (U+0061), followed by Combining acute accent (U+0301)
 These are equal to N''... Crazy!
 ‪: LEFT-TO-RIGHT EMBEDDING (U+202A)
 ț: LATIN SMALL LETTER T WITH COMMA BELOW (U+021B)
+𠅜: U+2015C (needs surrogate pair in UTF-16)
 
 For this character:
 ์: THAI CHARACTER THANTHAKHAT (U+0E4C)
