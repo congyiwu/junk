@@ -1,3 +1,6 @@
+#!/bin/sh
+set -eu
+
 for x in /dev/sd?
   do
   echo "$x"

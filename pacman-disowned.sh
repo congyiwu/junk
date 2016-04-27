@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 
 tmp=${TMPDIR-/tmp}/pacman-disowned-$UID-$$
 db=$tmp/db
