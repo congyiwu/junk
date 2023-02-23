@@ -28,10 +28,12 @@ Preferred:
     * [Error and Transaction Handling in SQL Server](https://www.sommarskog.se/error_handling/Part1.html)
     * [Using a Table of Numbers](https://www.sommarskog.se/Short%20Stories/table-of-numbers.html): This short story shows how a one-column table of consecutive numbers (or dates or hours etc) can be a powerful asset in your database to help you to write certain type of queries
   * https://sqlperformance.com
-    * https://sqlperformance.com/2013/02/t-sql-queries/halloween-problem-part-1
+    * [https://sqlperformance.com/2013/02/t-sql-queries/halloween-problem-part-1](The Halloween Problem – Part 1)
+    * [Please stop using this UPSERT anti-pattern](https://sqlperformance.com/2020/09/locking/upsert-anti-pattern): This article and the articles it references explain cases where you need `UPDLOCK` or `HOLDLOCK/SERIALIZABLE`, as well as `MERGE` caveats
   * https://www.sqlshack.com
 
 Loose articles:
+* https://sqlperformance.com/2020/09/locking/upsert-anti-pattern
 * https://weblogs.sqlteam.com/dang/2007/10/28/conditional-insertupdate-race-condition/
 * https://weblogs.sqlteam.com/dang/2009/01/31/upsert-race-condition-with-merge/
 
